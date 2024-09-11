@@ -1,0 +1,11 @@
+{
+    "restructuredtext.confPath": "",
+    "cmake.configureArgs": [
+        "-DBOARD=nrf5340dk_nrf5340_cpuapp",
+        "-DNO_BUILD_TYPE_WARNING=TRUE",
+        "-DZEPHYR_TOOLCHAIN_VARIANT=zephyr",
+        "-DBOARD_FLASH_RUNNER=jlink",
+        //"-DCONF_FILE=prj.conf overlay_uf2.conf",
+        "-DCONF_FILE=prj.conf",
+    ],
+}
