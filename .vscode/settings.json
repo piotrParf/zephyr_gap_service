@@ -6,6 +6,6 @@
         "-DZEPHYR_TOOLCHAIN_VARIANT=zephyr",
         "-DBOARD_FLASH_RUNNER=jlink",
         //"-DCONF_FILE=prj.conf overlay_uf2.conf",
-        "-DCONF_FILE=prj.conf",
+        "-DCONF_FILE=prj.conf cf_network.conf",
     ],
 }
